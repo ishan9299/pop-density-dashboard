@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vite + TS</title>
+    </head>
+    <body>
+        <!--<div id="desc">-->
+        <!--    <h1>World Population Density</h1>-->
+        <!--</div>-->
+        <div id="app">
+            <div id="description">
+                <h2>Population Density, <span id="year"></span></h2>
+                <div id="ranking-graph">
+                </div>
+            </div>
+            <div id="dashboard">
+                <div id="map">
+                </div>
+                <div id="timeline-component">
+                    <button>10000 BCE</button>
+                    <input type=range id="year-slider">
+                    <button>2100</button>
+                </div>
+            </div>
+        </div>
+        <div class="tooltip" style="display: none;"></div>
+        <script type="module" src="/src/main.ts"></script>
+    </body>
+</html>
