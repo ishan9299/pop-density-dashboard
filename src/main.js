@@ -281,8 +281,8 @@ async function main() {
     const header_year = document.querySelector("#description > h2 > #year");
     header_year.textContent = data.years[slider.value];
 
-    const width : number = 1024;
-    const height : number = 576;
+    const width = 1024;
+    const height = 576;
 
     const svg = d3.select("#map").append("svg")
     .attr("width", width)
